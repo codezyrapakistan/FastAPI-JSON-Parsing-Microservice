@@ -26,6 +26,7 @@ It exposes a simple REST API that validates, parses, and extracts key component 
 ---
 
 ## 🧰 Project Structure
+```bash
 fastapi-sbom-checker/
 ├── app/
 │   ├── main.py
