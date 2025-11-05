@@ -55,13 +55,24 @@ Follow these simple steps to set up and run the FastAPI SBOM Checker on your sys
 
 ---
 
-### 🪜 Step 1️ Clone the repository
+### Step 1️ Clone the repository
 ```bash
 git clone https://github.com/yourusername/fastapi-sbom-checker.git
 
-### 🪜 Step 2 Navigate into the project directory
+### Step 2 Navigate into the project directory
 
 ```bash
 cd fastapi-sbom-checker
+
+### Step 3 Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+### Step 4 Run the application
+
+```bash
+uvicorn app.main:app --reload
+
 
 
