@@ -51,7 +51,17 @@ fastapi-sbom-checker/
 
 ## 🧩 Installation & Run Instructions
 
-### 1️⃣ Clone the repository
+Follow these simple steps to set up and run the FastAPI SBOM Checker on your system.
+
+---
+
+### 🪜 Step 1️ Clone the repository
 ```bash
 git clone https://github.com/yourusername/fastapi-sbom-checker.git
+
+### 🪜 Step 2 Navigate into the project directory
+
+```bash
 cd fastapi-sbom-checker
+
+
