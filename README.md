@@ -28,24 +28,25 @@ It exposes a simple REST API that validates, parses, and extracts key component 
 ## 🧰 Project Structure
 fastapi-sbom-checker/
 ├── app/
-│ ├── main.py
-│ ├── api/
-│ │ └── routes_sbom.py
-│ ├── core/
-│ │ └── config.py
-│ ├── models/
-│ │ └── sbom_models.py
-│ ├── services/
-│ │ └── osv_service.py
-│ └── utils/
-│ └── parser.py
+│   ├── main.py
+│   ├── api/
+│   │   └── routes_sbom.py
+│   ├── core/
+│   │   └── config.py
+│   ├── models/
+│   │   └── sbom_models.py
+│   ├── services/
+│   │   └── osv_service.py
+│   └── utils/
+│       └── parser.py
 │
 ├── tests/
-│ └── test_sbom_api.py
+│   └── test_sbom_api.py
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
 
 ## 🧩 Installation & Run Instructions
 
